@@ -23,7 +23,7 @@ Functionalities:
 4. Load the uncompressed directory
 
 # Changelog
-* v0.1.27 - Removed requests made to tracker, so now we can bot in peace.
+* v0.1.27 - Removed requests made to the tracker, so now we can bot in peace.
 * v0.1.26 - Delete software mission sequence implemented.
 * v0.1.25.2 - Fixing last update issue. If skip hide upload logs option (webcrawler checkbox) was active and the installing failed then the upload logs would not be clear.
 * v0.1.25.1 - Just some adjustments
