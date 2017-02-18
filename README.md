@@ -22,6 +22,10 @@ Functionalities:
 3. Click on 'Load unpacked extension...'
 4. Load the uncompressed directory
 
+# Screenshot
+![screenshot](http://i.imgur.com/67i8sgr.png)
+
+
 # Changelog
 * v0.1.27 - Removed requests made to the tracker, so now we can bot in peace.
     * Also added some small UI tweaks to make it look a bit nicer
